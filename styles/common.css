@@ -1,0 +1,28 @@
+/* Font type 
+font-family: 'Roboto', sans-serif;
+*/
+
+/* Common styles */
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #2f3239;
+	box-shadow: 33px -16px 34px 22px rgba(10,10,12,1);
+	
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
