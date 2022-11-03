@@ -5,13 +5,13 @@
 	height: 70px;
 	color: white;
 	display: grid;
-	grid-template-columns: 1fr 3fr 2fr;
+	grid-template-columns: 1fr 2fr 2fr;
 }
 
 /* Left Column Styles - Logo */
 
 .nav-wrapper > .left-column{
-	margin-left: 10px;
+	margin-left: 20px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -58,7 +58,7 @@
 .nav-wrapper > .center-column > .nav-links-wrapper > .nav-link a{
 	margin-right: 10px;
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Assistant', sans-serif;
 	font-size: 0.9em;
 	font-weight: 900;
 	text-decoration: none;
@@ -79,7 +79,7 @@
 
 .nav-wrapper > .center-column > .nav-links-wrapper > .nav-drop a{
 	color: #b9b9b9;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Assistant', sans-serif;
 	font-size: 0.9em;
 	text-decoration: none;
 	margin-right: 10px;
@@ -112,7 +112,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 30px;
+	margin-left: 60px;
 }
 
 .nav-wrapper > .right-column > .nav-box-wrapper > .nav-box{
@@ -126,8 +126,9 @@
 .nav-wrapper > .right-column > .nav-box-wrapper > .nav-box a{
 	color: white;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Assistant', sans-serif;
 	font-size: 0.9em;
+	font-weight: 700;
 	transition: 0.5s;
 }
 
@@ -146,6 +147,7 @@
 	font-size: 1.5em;
 	color: #969696;
 	transition: 0.5s;
+
 }
 
 .nav-wrapper > .right-column > .nav-box-wrapper > .search:hover{

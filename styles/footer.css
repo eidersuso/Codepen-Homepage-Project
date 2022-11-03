@@ -1,0 +1,34 @@
+/* Footer Squares Styles */
+
+.footer > .footer-squares-wrap{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	text-align: center;
+}
+
+.footer > .footer-squares-wrap > .footer-square{
+	background: #36383f;
+	padding: 10px 20px;
+	border: solid 1px rgba(185, 185, 185, 0.3);
+}
+
+.footer > .footer-squares-wrap > .footer-square a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Assistant', sans-serif;
+	font-size: 0.8em;
+	font-weight: 500;
+	letter-spacing: -0.4px;
+	transition: 0.5s;
+}
+
+.footer > .footer-squares-wrap > .footer-square > a > .square-caps{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 800;
+}
+
+.footer > .footer-squares-wrap > .footer-square a:hover{
+	color: #4bce79;
+}
