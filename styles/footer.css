@@ -1,4 +1,7 @@
 /* Footer Squares Styles */
+.footer{
+	padding-bottom: 60px;
+}
 
 .footer > .footer-squares-wrap{
 	display: grid;
